@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+img {
+  width: 100%;
+}
+
+.showcase {
+  background: url(../img/showcase.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden !important;
+}
+
+.showcase-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.z-top {
+  z-index: 1;
+}
+
+.p-text {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.link-underline {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.text-underline {
+  width: 50% !important;
+  height: 1px !important;
+  background: #ccc !important;
+  margin: auto;
+}
+
+.menu-area {
+  position: static !important;
+}
+
+.mega-area {
+  width: 100%;
+  position: absolute;
+}
+
+.collection-area::before {
+  content: '';
+  top: -1.2rem;
+  left: 41%;
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.company-area::before {
+  content: '';
+  top: -1.2rem;
+  left: 47%;
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.connect-area::before {
+  content: '';
+  top: -1.2rem;
+  left: 53%;
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.support-area::before {
+  content: '';
+  top: -1.2rem;
+  left: 59%;
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.sign-up-area::before {
+  content: '';
+  top: -1.2rem;
+  left: 95%;
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+.log-in-area::before {
+  content: '';
+  top: -1.2rem;
+  left: 91%;
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+}
+
+@media (max-width: 1024px) {
+  .collection-area::before {
+    content: '';
+    top: -1.2rem;
+    left: 38%;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .company-area::before {
+    content: '';
+    top: -1.2rem;
+    left: 47%;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .connect-area::before {
+    content: '';
+    top: -1.2rem;
+    left: 54%;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .support-area::before {
+    content: '';
+    top: -1.2rem;
+    left: 62%;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .sign-up-area::before {
+    content: '';
+    top: -1.2rem;
+    left: 94%;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .log-in-area::before {
+    content: '';
+    top: -1.2rem;
+    left: 88%;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-area::before {
+    content: '';
+    top: 10.9vh;
+    left: 3vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .company-area::before {
+    content: '';
+    top: 14.8vh;
+    left: 3vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .connect-area::before {
+    content: '';
+    top: 18.8vh;
+    left: 3vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .support-area::before {
+    content: '';
+    top: 22.8vh;
+    left: 3vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .log-in-area::before {
+    content: '';
+    top: 26.8vh;
+    left: 3vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .sign-up-area::before {
+    content: '';
+    top: 30.8vh;
+    left: 3vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .p-text {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  .link-underline {
+    font-size: 1rem;
+    text-decoration: underline;
+  }
+
+  .text-underline {
+    width: 35% !important;
+    height: 1px !important;
+    background: #ccc !important;
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 568px) {
+  .collection-area::before {
+    content: '';
+    top: 13.8vh;
+    left: 5vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .company-area::before {
+    content: '';
+    top: 18.8vh;
+    left: 5vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .connect-area::before {
+    content: '';
+    top: 23.8vh;
+    left: 5vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .support-area::before {
+    content: '';
+    top: 28.8vh;
+    left: 5vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .log-in-area::before {
+    content: '';
+    top: 33.8vh;
+    left: 5vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .sign-up-area::before {
+    content: '';
+    top: 38.8vh;
+    left: 5vw;
+    position: absolute;
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+  }
+
+  .p-text {
+    font-size: 0.8rem;
+    color: #333;
+  }
+
+  .link-underline {
+    font-size: 0.8rem;
+    text-decoration: underline;
+  }
+
+  .text-underline {
+    width: 30% !important;
+    height: 1px !important;
+    background: #ccc !important;
+    margin: auto;
+  }
+}
